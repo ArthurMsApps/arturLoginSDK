@@ -14,5 +14,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyFramework", 
-            path: "Source")
+            path: "Source/MyFramework.xcframework")
     ])
