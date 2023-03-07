@@ -14,6 +14,5 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MyFramework", 
-            path: "MyFramework.xcframework",
-	    exclude: ["MyFrameworkk"])
+            path: "MyFramework.xcframework")
     ])
